@@ -10,17 +10,17 @@ Reg no: PA106/G/28740/25;
 int main() {
 int height;
     printf("Enter your height: ");
-    scanf("%a", & height);
+    scanf("%d", & height);
     printf("Your height is %a ",height);
     
 int number;    
     printf("Enter your Id number: ");
-    scanf("%a", & number);
+    scanf("%d", & number);
     printf("Your number is %a ", number);
 
 int balance;
     printf("Enter your bank balance: ");
-    scanf("%a", & balance);
+    scanf("%d", & balance);
     printf("Your balance is %a ", balance);
     
     return 0;
